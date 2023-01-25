@@ -104,7 +104,7 @@ When you get an error, read them carefully.
 
 Do a web search on the sqlite3 'database is locked' error.
 
-- What do you learn?
+- What do you learn? This what I found: databased locked: indicates that your application is experiencing more concurrency than sqlite can handle in default configuration. This error means that one thread or process has an exclusive lock on the database connection and another thread timed out waiting for the lock the be released.
 - Once a process fails, it crashes the main process and everything stops. 
 
 ## Deadlock
