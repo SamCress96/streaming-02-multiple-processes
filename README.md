@@ -24,14 +24,14 @@ Executing multiple_processes.py script.
 Read the output. Read the code. 
 Try to figure out what's going on. 
 
-1. What libraries did we import?
-1. Where do we set the task_duration?
-1. How many functions are defined? 
-1. What are the function names? 
-1. In general, what does each function do? 
-1. Where does the execution begin?
-1. How many processes do we start?
-1. How many records does each process insert?
+1. What libraries did we import? We imported 7 libraries. 
+1. Where do we set the task_duration? In this py file task duration is set after importing the libraries, it is set with task duration = (then your chosen duration)
+1. How many functions are defined? 7 functions are defined. 
+1. What are the function names? The function names are: create_table, drop_table, insert_pet, procces_one, process_two, process_three, and recreate_database.
+1. In general, what does each function do? These functions help create a connection with the database as well provide reuseable code that will help us get the information from the database that we need. 
+1. Where does the execution begin? Execution begins when we start the processes that were defined. 
+1. How many processes do we start? 3 proccesses. 
+1. How many records does each process insert? 6 new records.
 
 In this first run, we start 3 processes, 
 each inserting 2 records into a shared database 
@@ -96,7 +96,8 @@ Python has pretty helpful error messages.
 When you get an error, read them carefully. 
 
 - What error do you get?
-- Can you tell what line it was executing when it failed?
+- database is locked
+- Can you tell what line it was executing when it failed? I am not 100% percent sure on the line that it failed. My guess is around line 38 when it is running in the terminal. 
 
 
 ## Database Is Locked Error
